@@ -1,0 +1,36 @@
+@FabrykaAPI_HostAddress = https://localhost:7150
+
+GET {{FabrykaAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{FabrykaAPI_HostAddress}}/maszyna
+
+###
+
+@id=1
+GET {{FabrykaAPI_HostAddress}}/maszyna/{{id}}
+
+###
+
+POST {{FabrykaAPI_HostAddress}}/maszyna
+Content-Type: application/json
+
+{
+  //Maszyna
+}
+
+###
+
+@username=admin@fabryka.com
+@password=P@ssword
+# @name login
+POST {{FabrykaAPI_HostAddress}}/security/getToken?username={{username}}&password={{password}}
+
+###
+
+@id=2
+GET {{FabrykaAPI_HostAddress}}/maszynaoperator/{{id}}
+Authorization: Bearer {{login.response.body.$.token}}
+###

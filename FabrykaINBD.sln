@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35506.116 d17.12
+VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrykaINBD", "FabrykaINBD\FabrykaINBD.csproj", "{B4F8C723-E379-4733-A51E-0C3992FC2EC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrykaModels", "FabrykaModels\FabrykaModels.csproj", "{748CBB90-0C3C-4F22-A503-D54449D00A10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrykaAPI", "FabrykaAPI\FabrykaAPI.csproj", "{9BBAE14A-EB7B-4222-9172-03BC6E514A3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{B4F8C723-E379-4733-A51E-0C3992FC2EC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4F8C723-E379-4733-A51E-0C3992FC2EC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4F8C723-E379-4733-A51E-0C3992FC2EC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{748CBB90-0C3C-4F22-A503-D54449D00A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{748CBB90-0C3C-4F22-A503-D54449D00A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{748CBB90-0C3C-4F22-A503-D54449D00A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{748CBB90-0C3C-4F22-A503-D54449D00A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BBAE14A-EB7B-4222-9172-03BC6E514A3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BBAE14A-EB7B-4222-9172-03BC6E514A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BBAE14A-EB7B-4222-9172-03BC6E514A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BBAE14A-EB7B-4222-9172-03BC6E514A3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
